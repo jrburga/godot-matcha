@@ -1,10 +1,9 @@
 # The TrackerClient is a simple implementation of a WebTorrent Tracker Client
 # Learn more about it here (js): https://github.com/webtorrent/bittorrent-tracker
 # TODO: DOCUMENT, DOCUMENT, DOCUMENT!
-
+class_name TrackerClient
 extends RefCounted
 const Utils := preload("../lib/Utils.gd")
-const WebSocketClient := preload("../lib/WebSocketClient.gd")
 
 # Classes
 class Response:

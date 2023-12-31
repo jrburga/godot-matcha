@@ -2,8 +2,6 @@
 
 class_name MatchaRoom extends WebRTCMultiplayerPeer
 const Utils := preload("./lib/Utils.gd")
-const TrackerClient := preload("./tracker/TrackerClient.gd")
-const MatchaPeer := preload("./MatchaPeer.gd")
 
 # Constants
 enum State { NEW, STARTED }

@@ -1,5 +1,5 @@
 # TODO: DOCUMENT, DOCUMENT, DOCUMENT!
-
+class_name WebSocketClient
 extends RefCounted
 
 # Signals
